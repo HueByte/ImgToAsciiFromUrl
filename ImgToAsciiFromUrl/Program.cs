@@ -13,7 +13,7 @@ namespace ImgToAsciiFromUrl
     class Program
     {
         //url to img
-        private const string _imgurl = "http://www.titikmall.store/wp-content/uploads/2019/01/236_2361875_pusheen_aka_the_cute_of_cuteness_by_favouritefi_cute_cat_drawing_png_4.jpg";   //url to img
+        private const string _imgurl = "http://www.titikmall.store/wp-content/uploads/2019/01/236_2361875_pusheen_aka_the_cute_of_cuteness_by_favouritefi_cute_cat_drawing_png_4.jpg";   
         private const int _aWidth = 150;
         private static string[] _asciiChars = { "#", "#", "@", "%", "=", "+", "*", ":", "-", ".", " " };
 
