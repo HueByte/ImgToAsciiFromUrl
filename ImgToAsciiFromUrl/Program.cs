@@ -52,7 +52,7 @@ namespace ImgToAsciiFromUrl
             Bitmap _result = new Bitmap(asciiWidth, asciiheight);
             Graphics _g = Graphics.FromImage((Image)_result);
 
-            //interpolation
+            //interpolation to make better quality
             _g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
             _g.DrawImage(inputbit, 0, 0, asciiWidth, asciiheight);
             _g.Dispose();
