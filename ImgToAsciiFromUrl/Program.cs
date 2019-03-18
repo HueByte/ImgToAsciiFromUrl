@@ -46,7 +46,7 @@ namespace ImgToAsciiFromUrl
         private static Bitmap GetResized(Bitmap inputbit, int asciiWidth)
         {
             int asciiheight = 0;
-            //New Height
+            //New Height    img.Height * asciiWidth / img.Width
             asciiheight = (int)Math.Ceiling((double)inputbit.Height * asciiWidth / inputbit.Width);
             //New bitmap with defined resolution
             Bitmap _result = new Bitmap(asciiWidth, asciiheight);
