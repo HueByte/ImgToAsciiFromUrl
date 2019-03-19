@@ -1,4 +1,4 @@
 # ImgToAsciiFromUrl
 # Convert any image to ascii!
-I made is as training for images analyzing
-![](quickshow.gif)
+I made this as training for images analyzing
+![](https://i.imgur.com/zwwD8OH.gifv)
